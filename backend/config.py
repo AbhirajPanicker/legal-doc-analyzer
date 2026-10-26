@@ -40,10 +40,14 @@ class Settings:
     VECTOR_STORE_DIR: Path = Path(os.getenv("VECTOR_STORE_DIR", "vector_store"))
 
     # CORS
-    ALLOWED_ORIGINS: list[str] = [
-        o.strip()
-        for o in os.getenv("ALLOWED_ORIGINS", "http://localhost:5173").split(",")
-    ]
+ALLOWED_ORIGINS: list[str] = [
+    o.strip()
+    for o in os.getenv(
+        "ALLOWED_ORIGINS",
+        "https://legal-doc-analyzer-gray.vercel.app,http://localhost:5173,http://127.0.0.1:5173"
+    ).split(",")
+    if o.strip()
+]
 
     # JWT
     JWT_SECRET: str = os.getenv(
