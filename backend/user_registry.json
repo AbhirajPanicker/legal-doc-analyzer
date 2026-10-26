@@ -1,0 +1,26 @@
+{
+  "b12e379a-1121-42e3-8ba0-e8c137d35f97": {
+    "id": "b12e379a-1121-42e3-8ba0-e8c137d35f97",
+    "email": "user1@gmail.com",
+    "full_name": "User1",
+    "hashed_password": "$2b$12$C1g8JN1JK.ExR99IIKPgPepii0//aODezwzAMpcpgnXfoGueo4yri",
+    "created_at": "2026-10-23T17:35:44.997337+00:00",
+    "is_active": true
+  },
+  "569495b2-79c1-4550-a4e9-6ececaf7bb6c": {
+    "id": "569495b2-79c1-4550-a4e9-6ececaf7bb6c",
+    "email": "user2@gmail.com",
+    "full_name": "User2",
+    "hashed_password": "$2b$12$ZzcFSnAH7xUno66wuVOiu.omMOArhlxhF2ygqNgddWOvPmG/fPH42",
+    "created_at": "2026-10-23T17:47:42.149674+00:00",
+    "is_active": true
+  },
+  "50e25b51-9e79-48c5-9d71-3762dd05f352": {
+    "id": "50e25b51-9e79-48c5-9d71-3762dd05f352",
+    "email": "user3@gmail.com",
+    "full_name": "User3",
+    "hashed_password": "$2b$12$7im34mLJaIaUiG0S5b5p8uUOotq2sR9jz3UCzTAR16kbgbeDFbcau",
+    "created_at": "2026-10-23T18:37:13.896141+00:00",
+    "is_active": true
+  }
+}
