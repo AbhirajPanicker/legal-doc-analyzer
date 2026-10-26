@@ -54,6 +54,12 @@ def root():
     }
 
 
+@app.get("/healthz", tags=["health"])
+def healthz():
+    """Standard health check endpoint for cloud platforms like Render / Kubernetes."""
+    return {"status": "ok"}
+
+
 @app.get("/api/v1/status", tags=["health"])
 def api_status():
     return {

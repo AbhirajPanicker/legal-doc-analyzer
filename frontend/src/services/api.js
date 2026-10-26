@@ -9,8 +9,7 @@ import axios from 'axios';
 const TOKEN_KEY = 'lex_token';
 
 const api = axios.create({
-  baseURL: '/api/v1',
-  timeout: 120000, // 2 min — embedding generation can be slow on first run
+  baseURL: `${import.meta.env.VITE_API_URL}/api/v1`,
 });
 
 // ── Auth token injection ───────────────────────────────────────────────────────
